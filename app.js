@@ -6,7 +6,8 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 var uploadify=require('./uploadify');
-uploadify(app,'uploads');
+// uploadify(app,'uploads');
+app.use('/abc',uploadify)
 
 port="3000";
 app.listen(port);
