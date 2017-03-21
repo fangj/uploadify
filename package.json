@@ -1,12 +1,12 @@
 {
   "name": "uploadify",
   "version": "0.0.1",
-  "description": "",
-  "main": "app.js",
+  "description": "express middleware for upload files and return the urls",
+  "main": "uploadify.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
-  "author": "",
+  "author": "Fang Jian",
   "license": "ISC",
   "dependencies": {
     "compression": "^1.6.2",
