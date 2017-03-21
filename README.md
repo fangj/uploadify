@@ -3,7 +3,7 @@
 express 上传文件服务中间件
 
 ```
-var uploadify= require('./uploadify');
+var uploadify= require('express-upload-restful');
 app.use('/upload',uploadify({ root:'uploads'}));
 ```
 
