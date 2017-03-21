@@ -1,7 +1,7 @@
 {
-  "name": "uploadify",
+  "name": "express-upload-restful",
   "version": "0.0.1",
-  "description": "express middleware for upload files and return the urls",
+  "description": "express middleware for upload files and return the urls in json",
   "main": "uploadify.js",
   "scripts": {
     "test": "node app.js"
